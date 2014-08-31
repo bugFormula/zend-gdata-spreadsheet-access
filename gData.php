@@ -6,6 +6,10 @@
 /* (Google user account Credentials (Definite Salt/Encryption Fork for user input method)
  * Additional login function needed.
  */
+	function __autoload($class_name) {
+			$file = 'class.' . $class_name .'.inc';
+			include $file;
+		}
 $inputUsername = 'username';
 $inputPassword = 'password';
 /* Aquisition of Gdata Components. */
