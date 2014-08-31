@@ -3,7 +3,9 @@
  * to directly access Google spreadsheets.
  * @author Simon Parker 
  */
-/* (Google user account Credentials (Definite Salt/Encryption Fork for user input method) */
+/* (Google user account Credentials (Definite Salt/Encryption Fork for user input method)
+ * Additional login function needed.
+ */
 $inputUsername = 'username';
 $inputPassword = 'password';
 /* Aquisition of Gdata Components. */
